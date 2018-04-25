@@ -1,0 +1,18 @@
+Créer un nouveau projet :
+create-react-app nom_projet
+
+//Fonction React
+
+La fonction React.createElement() permet de créer un élément du DOM Virtuel React
+React.createElement()
+
+Pour afficher un element creer par React du DOM vituel il faut utiliser la fonction React.renderElement()
+Cette fonction prend 2 params, le premier, l'élément, et le second ou l'inclure, exemple React.renderElement(GuillaumeComponent, "root")
+
+
+Cependant il est possible de ne plus passer par cette fonction et d'utiliser le JSX qui fait l'équivalent, en appelant directement le composant <GuillaumeComponent />
+
+Pour toutes les balises en JSX, nous ne mettons pas d'attribut mais des PROPS, ces props s'écrivent de la même façon qu'en HTML si ce sont des types string
+sinon elles s'ecrivent comme ceci, <input attr={45} />
+
+Toutes les balises doivent être fermées, mais celles orpheline
