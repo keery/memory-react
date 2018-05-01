@@ -1,0 +1,7 @@
+Lorsque je clique sur une card il y a l'event onclick d'attaché, et on utilise la prop onclick qui contient une fonction en 
+lui passant la prop card
+
+Utilisation des proptypes:
+Prop types etait aupravant inclu dans React, maintenant il est dans un package a part, il faut donc l'installer à l'aide de la 
+fonction npm install -save prop-types
+Les props types sont automatiquement enlevé en mode production car ils sont uniquement destiné à faciler le développement
